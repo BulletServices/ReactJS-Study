@@ -11,7 +11,8 @@ ReactDOM.render(
         <Primeiro></Primeiro>
         <ComParametro 
             titulo="Oie"
-            subtitulo="Tudo bem?">
+            subtitulo="Tudo bem?"
+            nota={6}>
         </ComParametro>
     </div>,
     element,
