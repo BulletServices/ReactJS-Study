@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function Primeiro(){
-    return 'Primeiro Negocinho'
+    return <h1>Primeiro Negocinho</h1>
 }
