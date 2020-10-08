@@ -9,12 +9,12 @@ import Fragmento from './components/basics/Fragmento'
 const element = document.getElementById('root')
 ReactDOM.render( 
     <div> 
+        <Fragmento/>
         <Primeiro></Primeiro>
         <ComParametro 
             titulo="Oie"
             subtitulo="Tudo bem?"
             nota={6}/>
-            <Fragmento/>
     </div>,
     element,
 )
